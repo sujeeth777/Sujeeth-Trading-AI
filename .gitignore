@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project artifacts (regenerated, not source)
+output/
+logs/
+*.log
+
+# Keep the sample dataset, ignore anything generated later
+data/*
+!data/sample_reliance_daily.csv

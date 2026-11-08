@@ -1,0 +1,29 @@
+{
+  "strategy": {
+    "ema_fast": 9,
+    "ema_slow": 21,
+    "rsi_period": 14,
+    "rsi_bull_threshold": 50.0,
+    "volume_avg_window": 20,
+    "vwap_window": 20,
+    "atr_period": 14,
+    "atr_stop_multiplier": 1.5,
+    "atr_target_multiplier": 3.0
+  },
+  "risk": {
+    "initial_capital": 10000.0,
+    "max_risk_per_trade_pct": 0.005,
+    "max_daily_loss_pct": 0.015,
+    "min_reward_risk": 2.0,
+    "min_stop_distance": 0.05
+  },
+  "regime": {
+    "atr_pct_high_vol": 0.03,
+    "slope_lookback": 10,
+    "slope_trend_threshold": 0.02
+  },
+  "backtest": {
+    "warmup_bars": 60,
+    "allow_shorts": false
+  }
+}
